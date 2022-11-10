@@ -1,0 +1,74 @@
+/*CRISTIAN SILVA GUERRERO*/
+
+
+body{
+	
+	width: 1260px;
+	
+}
+
+main#contenido{
+	
+	width: 1220px; /*1260 - 40px de padding*/
+	height: 400px;
+	background-color: red;
+	padding: 0px 20px;
+}
+
+main#contenido #caja1{
+	
+	width: 780px; /*800px - 20px de padding*/
+	height: 400px;
+	background-color: #24BF34;	
+	float: left;
+	padding: 0px 10px;
+	
+}
+
+main#contenido #caja2{
+	
+	background-color: #529FB6;
+	width: 400px;
+	height: 400px;
+	float: right;
+	
+}
+
+div#caja1 #formulario{
+	
+	width: 708px; /*780 - 70px de padding - 2px de borde*/
+	height: 110px;
+	margin-top: 64px;
+	padding: 16px 0px 16px 70px;
+	border: 1px solid black;
+}
+
+form#formulario input[type="text"]{
+	
+	width: 490px; /*500-10px de padding*/
+	padding-left: 10px;
+	
+}
+
+form#formulario input[type="submit"]{
+	
+	width: 150px;
+	height: 32px;
+	background-color: #D8D8D8;
+	
+}
+
+div#caja2 #imagen{
+	
+	/* Por defecto, el tamaño de la imagen es de 150px. */
+	margin: 50px 0px 0px 30px;
+	height: auto;
+}
+
+
+footer#piePagina{
+	
+	height: 100px;
+	background-color: blue;
+	
+}
